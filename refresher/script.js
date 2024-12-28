@@ -33,6 +33,15 @@ let {zip} = user.address;
 
 console.log(zip);
 
+// Spread & Rest (...)
+
+const namesSpread = ["John", "Paul", "George", "Ringo"];
+const copyNames = namesSpread; //this way references the same array, so to copy the array we need to use the spread operator
+
+const newNamesSpread = [...namesSpread, "Jenee", "Jeneffer", "Jane"];
+
+console.log(newNamesSpread);
+
 
 
 
